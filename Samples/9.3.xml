@@ -1,0 +1,123 @@
+<InvoicesDoc xmlns="http://www.aade.gr/myDATA/invoice/v1.0" xmlns:icls="https://www.aade.gr/myDATA/incomeClassificaton/v1.0" xmlns:ecls="https://www.aade.gr/myDATA/expensesClassificaton/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <invoice>
+    <issuer>
+      <vatNumber>999977386</vatNumber>
+      <country>GR</country>
+      <branch>0</branch>
+      <name>EURΟPHARMACY</name>
+      <address>
+        <street>ΓΕΩΡΓ. ΠΑΠΑΝΔΡΕΟΥ</street>
+        <number>21</number>
+        <postalCode>54645</postalCode>
+        <city>ΘΕΣΣΑΛΟΝΙΚΗ</city>
+      </address>
+    </issuer>
+    <counterpart>
+      <vatNumber>113499136</vatNumber>
+      <country>GR</country>
+      <branch>0</branch>
+      <name>ΣΠΑΘΑΡΑΣ ΚΩΝΣΤΑΝΤΙΝΟΣ ΣΤΕΡΓΙΟ</name>
+      <address>
+        <street>ΑΓΙΩΝ ΠΑΝΤΩΝ 4Ε</street>
+        <number>_</number>
+        <postalCode>57010</postalCode>
+        <city>ΠΕΥΚΑ</city>
+      </address>
+    </counterpart>
+    <invoiceHeader>
+      <series>00</series>
+      <aa>1</aa>
+      <issueDate>2024-11-08</issueDate>
+      <invoiceType>9.3</invoiceType>
+      <movePurpose>5</movePurpose>
+      <otherDeliveryNoteHeader>
+        <loadingAddress>
+          <street>ΓΕΩΡΓ. ΠΑΠΑΝΔΡΕΟΥ</street>
+          <number>21</number>
+          <postalCode>54645</postalCode>
+          <city>ΘΕΣΣΑΛΟΝΙΚΗ</city>
+        </loadingAddress>
+        <deliveryAddress>
+          <street>ΑΓΙΩΝ ΠΑΝΤΩΝ 4Ε</street>
+          <number>_</number>
+          <postalCode>57010</postalCode>
+          <city>ΠΕΥΚΑ</city>
+        </deliveryAddress>
+      </otherDeliveryNoteHeader>
+    </invoiceHeader>
+    <invoiceDetails>
+      <lineNumber>1</lineNumber>
+      <itemCode>R023280802</itemCode>
+      <itemDescr><![CDATA[DEPON  MAXIMUM EF.TAB 1G/TAB BTx TUB x 8  TAB]]></itemDescr>
+      <quantity>1.00</quantity>
+      <measurementUnit>1</measurementUnit>
+      <netValue>0.00</netValue>
+      <vatCategory>8</vatCategory>
+      <vatAmount>0.00</vatAmount>
+      <lineComments>DEPON  MAXIMUM EF.TAB 1G/TAB BTx TUB x 8  TAB</lineComments>
+      <incomeClassification>
+        <icls:classificationCategory>category3</icls:classificationCategory>
+        <icls:amount>0.00</icls:amount>
+      </incomeClassification>
+    </invoiceDetails>
+    <invoiceDetails>
+      <lineNumber>2</lineNumber>
+      <itemCode>R192551102</itemCode>
+      <itemDescr><![CDATA[SALOSPIR EF.TAB 500MG/TAB BTX12((BLIST3X4)]]></itemDescr>
+      <quantity>2.00</quantity>
+      <measurementUnit>1</measurementUnit>
+      <netValue>0.00</netValue>
+      <vatCategory>8</vatCategory>
+      <vatAmount>0.00</vatAmount>
+      <lineComments>SALOSPIR EF.TAB 500MG/TAB BTX12((BLIST3X4)</lineComments>
+      <incomeClassification>
+        <icls:classificationCategory>category3</icls:classificationCategory>
+        <icls:amount>0.00</icls:amount>
+      </incomeClassification>
+    </invoiceDetails>
+    <invoiceDetails>
+      <lineNumber>3</lineNumber>
+      <itemCode>U10024422</itemCode>
+      <itemDescr><![CDATA[VICHY  CAPITAL SOLEIL MATTIFYING 3in1 SPF 50+ 50ML]]></itemDescr>
+      <quantity>2.00</quantity>
+      <measurementUnit>1</measurementUnit>
+      <netValue>0.00</netValue>
+      <vatCategory>8</vatCategory>
+      <vatAmount>0.00</vatAmount>
+      <lineComments>VICHY  CAPITAL SOLEIL MATTIFYING 3in1 SPF 50+ 50ML</lineComments>
+      <incomeClassification>
+        <icls:classificationCategory>category3</icls:classificationCategory>
+        <icls:amount>0.00</icls:amount>
+      </incomeClassification>
+    </invoiceDetails>
+    <invoiceDetails>
+      <lineNumber>4</lineNumber>
+      <itemCode>U36</itemCode>
+      <itemDescr><![CDATA[KORRES ABYSSCOLOR DEVEL 20 VOL.150mL]]></itemDescr>
+      <quantity>2.00</quantity>
+      <measurementUnit>1</measurementUnit>
+      <netValue>0.00</netValue>
+      <vatCategory>8</vatCategory>
+      <vatAmount>0.00</vatAmount>
+      <lineComments>KORRES ABYSSCOLOR DEVEL 20 VOL.150mL</lineComments>
+      <incomeClassification>
+        <icls:classificationCategory>category3</icls:classificationCategory>
+        <icls:amount>0.00</icls:amount>
+      </incomeClassification>
+    </invoiceDetails>
+    <invoiceSummary>
+      <totalNetValue>0.00</totalNetValue>
+      <totalVatAmount>0.00</totalVatAmount>
+      <totalWithheldAmount>0.00</totalWithheldAmount>
+      <totalFeesAmount>0.00</totalFeesAmount>
+      <totalStampDutyAmount>0.00</totalStampDutyAmount>
+      <totalOtherTaxesAmount>0.00</totalOtherTaxesAmount>
+      <totalDeductionsAmount>0.00</totalDeductionsAmount>
+      <totalGrossValue>0.00</totalGrossValue>
+      <incomeClassification>
+        <icls:classificationCategory>category3</icls:classificationCategory>
+        <icls:amount>0.00</icls:amount>
+      </incomeClassification>
+    </invoiceSummary>
+  </invoice>
+</InvoicesDoc>
