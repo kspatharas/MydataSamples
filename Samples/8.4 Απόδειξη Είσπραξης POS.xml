@@ -24,9 +24,9 @@
         <type>7</type>
         <amount>100</amount>
         <transactionId>026;000018;000009;651477</transactionId>
-        <tid>08587345</tid>
+        <tid>tid</tid>
         <ProvidersSignature>
-          <SigningAuthor>019</SigningAuthor>
+          <SigningAuthor>000</SigningAuthor>
           <Signature>MEQCIGKZPYEFBgjNhZa+FpS9HfjqGLIkESWms871Mk/Uc9JjAiAQA4p0KTWwLpIf0YpnUjF3JXjCo/2teRafH8KSAeNW+g==</Signature>
         </ProvidersSignature>
       </paymentMethodDetails>
