@@ -1,0 +1,60 @@
+<InvoicesDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.aade.gr/myDATA/invoice/v1.0">
+  <invoice>
+    
+    <issuer>
+      <vatNumber>000000000</vatNumber>
+      <country>GR</country>
+      <branch>0</branch>
+    </issuer>
+    <counterpart>
+      <vatNumber>xxxxxxxx</vatNumber>
+      <country>GR</country>
+      <branch>0</branch>
+    </counterpart>
+    <invoiceHeader>
+      <series>0</series>
+      <aa>71</aa>
+      <issueDate>2024-10-17</issueDate>
+      <invoiceType>8.4</invoiceType>
+      <currency>EUR</currency>
+      <multipleConnectedMarks>400001938327630</multipleConnectedMarks>
+    </invoiceHeader>
+    <paymentMethods>
+      <paymentMethodDetails>
+        <type>7</type>
+        <amount>100</amount>
+        <transactionId>026;000018;000009;651477</transactionId>
+        <tid>08587345</tid>
+        <ProvidersSignature>
+          <SigningAuthor>019</SigningAuthor>
+          <Signature>MEQCIGKZPYEFBgjNhZa+FpS9HfjqGLIkESWms871Mk/Uc9JjAiAQA4p0KTWwLpIf0YpnUjF3JXjCo/2teRafH8KSAeNW+g==</Signature>
+        </ProvidersSignature>
+      </paymentMethodDetails>
+    </paymentMethods>
+    <invoiceDetails>
+      <lineNumber>1</lineNumber>
+      <netValue>100</netValue>
+      <vatCategory>8</vatCategory>
+      <vatAmount>0</vatAmount>
+      <lineComments />
+      <incomeClassification>
+        <classificationCategory xmlns="https://www.aade.gr/myDATA/incomeClassificaton/v1.0">category1_95</classificationCategory>
+        <amount xmlns="https://www.aade.gr/myDATA/incomeClassificaton/v1.0">100</amount>
+      </incomeClassification>
+    </invoiceDetails>
+    <invoiceSummary>
+      <totalNetValue>100</totalNetValue>
+      <totalVatAmount>0</totalVatAmount>
+      <totalWithheldAmount>0</totalWithheldAmount>
+      <totalFeesAmount>0</totalFeesAmount>
+      <totalStampDutyAmount>0</totalStampDutyAmount>
+      <totalOtherTaxesAmount>0</totalOtherTaxesAmount>
+      <totalDeductionsAmount>0</totalDeductionsAmount>
+      <totalGrossValue>100</totalGrossValue>
+      <incomeClassification>
+        <classificationCategory xmlns="https://www.aade.gr/myDATA/incomeClassificaton/v1.0">category1_95</classificationCategory>
+        <amount xmlns="https://www.aade.gr/myDATA/incomeClassificaton/v1.0">100</amount>
+      </incomeClassification>
+    </invoiceSummary>
+  </invoice>
+</InvoicesDoc>
